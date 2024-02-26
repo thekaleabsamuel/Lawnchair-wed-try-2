@@ -15,15 +15,20 @@ body {
     text-align: center;
 }
 
-/* Add this CSS rule to make text color green */
 h1 {
     color: rgb(217, 255, 26);
-    text-shadow: 2px 2px 4px black; /* Adding black outline */
+    text-shadow: 2px 2px 4px black;
+    font-size: 24px; /* Adjust font size for mobile */
 }
 
- p {
+p {
     color: rgb(246, 35, 35);
-    text-shadow: 2px 2px 4px black; /* Adding black outline */
+    text-shadow: 2px 2px 4px black;
+    font-size: 18px; /* Adjust font size for mobile */
+}
+
+iframe {
+    width: 100%; /* Make the video responsive */
 }
 
 
